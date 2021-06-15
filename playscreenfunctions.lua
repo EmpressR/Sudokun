@@ -2766,7 +2766,8 @@ end
 
 function level_complete()
 
-    if A1 == 1 and A2 == 1 and A3 == 1 and A4 == 1 and A5 == 1 and A6 == 1 and 
+    if A1 == 1 and A2 == 1 and A3 == 1 and A4 == 1 and A5 == 1 and A6 == 1 then
+    end
 
-
+end
 
