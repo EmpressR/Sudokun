@@ -1,0 +1,81 @@
+
+
+- Main screen - state
+-- Make bg (black)
+-- Load progress from a file?
+-- Draw title
+
+-- Play - text (Blinking as a default)
+
+   Underneath from left to right:
+--- Easy - text (Shows the current level)
+--- Medium - text (Shows the current level)
+--- Hard - text (Shows the current level)
+--- Insane - text (Shows the current level)
+
+--- Right- and Left-arrow to navigate
+
+-- How to play  - text (Blinking if choosen)
+   Pressing Enter -> How to play screen
+
+-- Up- and Down-arrow to navigate
+
+
+
+- End screen - state
+-- Well Done! - text
+-- You passed level (difficulty & current level) - text
+-- Play next level - text (Blinking as a default)
+   Pressing Enter -> Play screen (next level)
+
+-- Change difficulty - text (Blinking if choosen)
+   Pressing down from play -> Opens Difficulty-options Easy, Medium, Hard & Insane from left to right Underneath
+   except for current difficulty & shows current levels for each
+--- Right- and Left-arrow to navigate
+
+-- Up- and Down-arrow to navigate
+-- Save progress to a file?
+
+
+- How to play screen - state
+-- Use arrow-keys to navigate the grid - text
+-- Use numbers 1-9 to fill the cells - text
+-- Write multiple numbers into the same cell to make notes - text
+-- Main Screen - text (Blinking)
+   Pressing Enter -> Main screen
+
+
+- Play screen - state
+-- Draw grid
+-- Draw numbers
+   Function to run specific level
+-- Blinkig spot for selected spot (start from top-left most) (grey square)
+
+-- Pressing arrow-keys to move between available spots
+-- Pressing 1-9 to draw a number to spot
+-- Multiple numbers in a spot -> Change font to smaller, counts as a note
+
+-- When all spots are filled (with only 1 number):
+-- Press Enter to verify - text
+-- If correct -> End screen
+-- If not correct:
+--- Change incorrect numbers to red
+--- Incorrect choices - text
+
+
+- Make Levels
+-- 1-100 for Easy, Medium, Hard & Insane
+
+- Key input to select a spot (Left-, Right-, Up- & Down-arrow keys)
+- Writing a number to a spot (1-9 keys)
+-- If a spot has multiple numbers:
+-- Change font size
+-- Count as a note
+
+
+Bg - Black
+Text & Numbers - White
+Grid - Light Grey
+Blinking spots - Dark Grey
+Incorrect numbers - Red
+
