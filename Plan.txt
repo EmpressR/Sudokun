@@ -1,6 +1,6 @@
 
 
-- Main screen - scene
+- Main screen - state
 -- Make bg (black)
 -- Load progress from a file?
 -- Draw title
@@ -22,29 +22,30 @@
 
 
 
-- End screen - scene
+- End screen - state
 -- Well Done! - text
 -- You passed level (difficulty & current level) - text
 -- Play next level - text (Blinking as a default)
    Pressing Enter -> Play screen (next level)
 
 -- Change difficulty - text (Blinking if choosen)
-   Pressing Enter -> Opens Difficulty-options Easy, Medium, Hard & Insane from left to right Underneath
+   Pressing down from play -> Opens Difficulty-options Easy, Medium, Hard & Insane from left to right Underneath
+   except for current difficulty & shows current levels for each
 --- Right- and Left-arrow to navigate
 
 -- Up- and Down-arrow to navigate
 -- Save progress to a file?
 
 
-- How to play screen - scene
+- How to play screen - state
 -- Use arrow-keys to navigate the grid - text
--- Use numbers 1-9 to pick a number for current spot - text
--- Write multiple numbers into the same spot to make notes - text
--- Press Enter to go back to Main Screen - text
+-- Use numbers 1-9 to fill the cells - text
+-- Write multiple numbers into the same cell to make notes - text
+-- Main Screen - text (Blinking)
    Pressing Enter -> Main screen
 
 
-- Play screen - scene
+- Play screen - state
 -- Draw grid
 -- Draw numbers
    Function to run specific level
