@@ -2,7 +2,8 @@
 
 function for_play()
     love.graphics.setColor(1, 1, 1, 1)
-    love.graphics.printf('How to Play', 0, 550, VIRTUAL_WIDTH, 'center')
+    love.graphics.printf('How to Play', 0, 500, VIRTUAL_WIDTH, 'center')
+    love.graphics.printf('Credits', 0, 600, VIRTUAL_WIDTH, 'center')
 
     love.graphics.setFont(sFont)
     love.graphics.printf('Easy', -180, 400, VIRTUAL_WIDTH, 'center')
@@ -14,6 +15,7 @@ end
 function for_how()
     love.graphics.setColor(1, 1, 1, 1)
     love.graphics.printf('Play', 0, 300, VIRTUAL_WIDTH, 'center')
+    love.graphics.printf('Credits', 0, 600, VIRTUAL_WIDTH, 'center')
 
     love.graphics.setFont(sFont)
     love.graphics.printf('Easy', -180, 400, VIRTUAL_WIDTH, 'center')
@@ -21,6 +23,19 @@ function for_how()
     love.graphics.printf('Hard', 45, 400, VIRTUAL_WIDTH, 'center')
     love.graphics.printf('Insane', 145, 400, VIRTUAL_WIDTH, 'center')
 end
+
+function for_credits()
+    love.graphics.setColor(1, 1, 1, 1)
+    love.graphics.printf('Play', 0, 300, VIRTUAL_WIDTH, 'center')
+    love.graphics.printf('How to Play', 0, 500, VIRTUAL_WIDTH, 'center')
+
+    love.graphics.setFont(sFont)
+    love.graphics.printf('Easy', -180, 400, VIRTUAL_WIDTH, 'center')
+    love.graphics.printf('Medium', -70, 400, VIRTUAL_WIDTH, 'center')
+    love.graphics.printf('Hard', 45, 400, VIRTUAL_WIDTH, 'center')
+    love.graphics.printf('Insane', 145, 400, VIRTUAL_WIDTH, 'center')
+end
+
 
 function for_easy()
     love.graphics.setColor(1, 1, 1, 1)
@@ -30,7 +45,8 @@ function for_easy()
 
     love.graphics.setFont(lFont)
     love.graphics.printf('Play', 0, 300, VIRTUAL_WIDTH, 'center')
-    love.graphics.printf('How to Play', 0, 550, VIRTUAL_WIDTH, 'center')
+    love.graphics.printf('How to Play', 0, 500, VIRTUAL_WIDTH, 'center')
+    love.graphics.printf('Credits', 0, 600, VIRTUAL_WIDTH, 'center')
 end
 
 function for_medium()
@@ -42,7 +58,8 @@ function for_medium()
 
     love.graphics.setFont(lFont)
     love.graphics.printf('Play', 0, 300, VIRTUAL_WIDTH, 'center')
-    love.graphics.printf('How to Play', 0, 550, VIRTUAL_WIDTH, 'center')
+    love.graphics.printf('How to Play', 0, 500, VIRTUAL_WIDTH, 'center')
+    love.graphics.printf('Credits', 0, 600, VIRTUAL_WIDTH, 'center')
 end
 
 function for_hard()
@@ -53,7 +70,8 @@ function for_hard()
 
     love.graphics.setFont(lFont)
     love.graphics.printf('Play', 0, 300, VIRTUAL_WIDTH, 'center')
-    love.graphics.printf('How to Play', 0, 550, VIRTUAL_WIDTH, 'center')
+    love.graphics.printf('How to Play', 0, 500, VIRTUAL_WIDTH, 'center')
+    love.graphics.printf('Credits', 0, 600, VIRTUAL_WIDTH, 'center')
 end
 
 function for_insane()
@@ -64,7 +82,8 @@ function for_insane()
 
     love.graphics.setFont(lFont)
     love.graphics.printf('Play', 0, 300, VIRTUAL_WIDTH, 'center')
-    love.graphics.printf('How to Play', 0, 550, VIRTUAL_WIDTH, 'center')
+    love.graphics.printf('How to Play', 0, 500, VIRTUAL_WIDTH, 'center')
+    love.graphics.printf('Credits', 0, 600, VIRTUAL_WIDTH, 'center')
 end
 
 
